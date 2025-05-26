@@ -1,0 +1,44 @@
+   137.8ms (setup:727): 2025-03-11 20:42:59
+   137.9ms (setup:728): /usr/bin/pipx install jupyter-core
+   137.9ms (setup:729): pipx version is 1.0.0
+   138.0ms (setup:730): Default python interpreter is '/usr/bin/python3'
+   138.0ms (mkdir:81): creating directory /home/ubuntu/.local/pipx/venvs
+   138.1ms (mkdir:81): creating directory /home/ubuntu/.local/pipx/.cache
+   138.6ms (package_name_from_spec:323): Determined package name: jupyter-core
+   138.6ms (package_name_from_spec:324): Package name determined in 0.0s
+   138.8ms (run_subprocess:172): running /usr/bin/python3 -m venv --without-pip /home/ubuntu/.local/pipx/venvs/jupyter-core
+   180.8ms (run_subprocess:185): stdout:
+   180.9ms (run_subprocess:187): stderr:
+   181.0ms (run_subprocess:188): returncode: 0
+   181.2ms (run_subprocess:172): running /usr/bin/python3 -m venv --clear /home/ubuntu/.local/pipx/shared
+  3497.0ms (run_subprocess:185): stdout:
+  3497.2ms (run_subprocess:187): stderr:
+  3497.2ms (run_subprocess:188): returncode: 0
+  3497.3ms (upgrade:91): Upgrading shared libraries in /home/ubuntu/.local/pipx/shared
+  3497.5ms (run_subprocess:172): running /home/ubuntu/.local/pipx/shared/bin/python -m pip --disable-pip-version-check install --force-reinstall -q --upgrade pip setuptools wheel
+  6796.9ms (run_subprocess:185): stdout:
+  6797.1ms (run_subprocess:187): stderr:
+  6797.1ms (run_subprocess:188): returncode: 0
+  6797.3ms (run_subprocess:172): running /home/ubuntu/.local/pipx/venvs/jupyter-core/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+  6812.3ms (run_subprocess:185): stdout: /home/ubuntu/.local/pipx/venvs/jupyter-core/lib/python3.10/site-packages
+  6812.4ms (run_subprocess:188): returncode: 0
+  6812.6ms (run_subprocess:172): running /home/ubuntu/.local/pipx/shared/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+  6829.1ms (run_subprocess:185): stdout: /home/ubuntu/.local/pipx/shared/lib/python3.10/site-packages
+  6829.2ms (run_subprocess:188): returncode: 0
+  6829.4ms (run_subprocess:172): running /home/ubuntu/.local/pipx/venvs/jupyter-core/bin/python --version
+  6831.2ms (run_subprocess:185): stdout: Python 3.10.12
+  6831.3ms (run_subprocess:187): stderr:
+  6831.3ms (run_subprocess:188): returncode: 0
+  6834.3ms (_parsed_package_to_package_or_url:128): cleaned package spec: jupyter-core
+  6834.5ms (run_subprocess:172): running /home/ubuntu/.local/pipx/venvs/jupyter-core/bin/python -m pip install jupyter-core
+  7701.0ms (run_subprocess:188): returncode: 0
+  7701.9ms (run_subprocess:172): running <fetch_info_in_venv commands>
+  7729.3ms (run_subprocess:185): stdout: {"sys_path": ["/usr/lib/python310.zip", "/usr/lib/python3.10", "/usr/lib/python3.10/lib-dynload", "/home/ubuntu/.local/pipx/venvs/jupyter-core/lib/python3.10/site-packages", "/home/ubuntu/.local/pipx/shared/lib/python3.10/site-packages"], "python_version": "3.10.12", "environment": {"implementation_name": "cpython", "implementation_version": "3.10.12", "os_name": "posix", "platform_machine": "x86_64", "platform_release": "6.8.0-52-generic", "platform_system": "Linux", "platform_version": "#53~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Jan 15 19:18:46 UTC 2", "python_full_version": "3.10.12", "platform_python_implementation": "CPython", "python_version": "3.10", "sys_platform": "linux"}}
+  7729.3ms (run_subprocess:188): returncode: 0
+  7756.4ms (get_venv_metadata_for_package:303): get_venv_metadata_for_package: 55ms
+  7756.7ms (_parsed_package_to_package_or_url:128): cleaned package spec: jupyter-core
+  7758.9ms (warn_if_not_on_path:410): ⚠️  Note: '/home/ubuntu/.local/bin' is not on your PATH environment variable.
+    These apps will not be globally accessible until your PATH is updated. Run
+    `pipx ensurepath` to automatically add it, or manually modify your PATH in
+    your shell's config file (i.e. ~/.bashrc).
+  7759.0ms (cli:790): pipx finished.

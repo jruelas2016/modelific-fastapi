@@ -1,0 +1,13 @@
+{
+  "base_url": "/",
+  "hostname": "127.0.0.1",
+  "password": false,
+  "pid": 1230,
+  "port": 7000,
+  "root_dir": "/home/ubuntu",
+  "secure": false,
+  "sock": "",
+  "token": "a54f70253760474fb61cc328f8076968",
+  "url": "http://127.0.0.1:7000/",
+  "version": "2.15.0"
+}
